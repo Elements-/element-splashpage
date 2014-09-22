@@ -2,7 +2,7 @@
 <head>
 	<title>Elements Technologies LLC</title>
 	<meta name=viewport content="width=device-width, initial-scale=1">
-	<link rel=stylesheet href="assets/css/animate.css">
+	<link rel=stylesheet href="https://raw.github.com/daneden/animate.css/master/animate.css">
 	<link rel="icon shortcut" type="image/png" href="assets/img/element.ico">
 	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,100' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
