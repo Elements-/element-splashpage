@@ -11,13 +11,6 @@ Options -Indexes
 ErrorDocument 403 http://demo.luke.sx/element/
 ErrorDocument 404 http://demo.luke.sx/element/
 
-RewriteEngine On
-RewriteBase /
-
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{DOCUMENT_ROOT}/$1\.php -f
-RewriteRule ^([^/]+)/?$ $1.php [L]
-
 # sets the true header of a web page
 <FilesMatch "\.(?i:xml)$">
       ForceType application/octet-stream
@@ -47,5 +40,3 @@ AddType text/css .css
   ExpiresActive On
   ExpiresDefault A6000
 </Files>
-
-RewriteRule ^index/([^/]+)$ index.php?hidden=$1
