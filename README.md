@@ -3,7 +3,7 @@ element-splashpage
 
 Dynamic splash page with randomized backgrounds and social links using PHP.
 
-![Image](http://root-image.luke.sx/a3fd.png)
+![Image](http://root-image.luke.sx/7458.png)
 
 
 #Usage
